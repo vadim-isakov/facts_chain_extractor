@@ -14,7 +14,7 @@ pip install git+https://github.com/IINemo/isanlp
 ```
 pip install git+https://github.com/IINemo/isanlp_srl_framebank
 ```  
-3. Depoy docker containers for morphology, syntax, and SRL parsing:  
+3. Deploy docker containers for morphology, syntax, and SRL parsing:  
 ```
 docker run -d --rm -p 3333:3333 inemo/isanlp
 docker run -d --rm --shm-size=1024m -ti -p 3334:9999 inemo/syntaxnet_rus server 0.0.0.0 9999
